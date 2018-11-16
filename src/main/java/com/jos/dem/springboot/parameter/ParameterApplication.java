@@ -12,9 +12,9 @@ public class ParameterApplication {
   @Value("${user}")
   private String user;
 
-	public static void main(String[] args) {
-		SpringApplication.run(ParameterApplication.class, args);
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(ParameterApplication.class, args);
+  }
 
   @Bean
   CommandLineRunner run(){
