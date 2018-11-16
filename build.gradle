@@ -29,6 +29,3 @@ dependencies {
 	testImplementation('io.projectreactor:reactor-test')
 }
 
-bootRun {
-  systemProperties = System.properties
-}
