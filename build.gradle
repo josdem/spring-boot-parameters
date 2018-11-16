@@ -29,3 +29,7 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 	testImplementation('io.projectreactor:reactor-test')
 }
+
+bootRun {
+  systemProperties = System.properties
+}
